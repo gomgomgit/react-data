@@ -24,108 +24,110 @@ export default function App() {
             />
           </View>
         </View>
-        <View style={{height: 100}}>
-          <ScrollView horizontal={true}>
-            <View style={{flexDirection:'row', paddingVertical: 10}}>
-              <View style={[sty.scrHorizontal, sty.tengah]}>
-                <Text>
-                    Hey
-                </Text>
-              </View>
-              <View style={[sty.scrHorizontal, sty.tengah]}>
-                <Text>
-                    Hey
-                </Text>
-              </View>
-              <View style={[sty.scrHorizontal, sty.tengah]}>
-                <Text>
-                    Hey
-                </Text>
-              </View>
-              <View style={[sty.scrHorizontal, sty.tengah]}>
-                <Text>
-                    Hey
-                </Text>
-              </View>
-              <View style={[sty.scrHorizontal, sty.tengah]}>
-                <Text>
-                    Hey
-                </Text>
-              </View>
-              <View style={[sty.scrHorizontal, sty.tengah]}>
-                <Text>
-                    Hey
-                </Text>
-              </View>
-              <View style={[sty.scrHorizontal, sty.tengah]}>
-                <Text>
-                    Hey
-                </Text>
-              </View>
-              <View style={[sty.scrHorizontal, sty.tengah]}>
-                <Text>
-                    Hey
-                </Text>
-              </View>
-              <View style={[sty.scrHorizontal, sty.tengah]}>
-                <Text>
-                    Hey
-                </Text>
-              </View>
+        <View style={{flex: 9}}>
+          <ScrollView>
+            <View style={{height: 100}}>
+              <ScrollView horizontal={true}>
+                <View style={{flexDirection:'row', paddingVertical: 10}}>
+                  <View style={[sty.scrHorizontal, sty.tengah]}>
+                    <Text>
+                        Hey
+                    </Text>
+                  </View>
+                  <View style={[sty.scrHorizontal, sty.tengah]}>
+                    <Text>
+                        Hey
+                    </Text>
+                  </View>
+                  <View style={[sty.scrHorizontal, sty.tengah]}>
+                    <Text>
+                        Hey
+                    </Text>
+                  </View>
+                  <View style={[sty.scrHorizontal, sty.tengah]}>
+                    <Text>
+                        Hey
+                    </Text>
+                  </View>
+                  <View style={[sty.scrHorizontal, sty.tengah]}>
+                    <Text>
+                        Hey
+                    </Text>
+                  </View>
+                  <View style={[sty.scrHorizontal, sty.tengah]}>
+                    <Text>
+                        Hey
+                    </Text>
+                  </View>
+                  <View style={[sty.scrHorizontal, sty.tengah]}>
+                    <Text>
+                        Hey
+                    </Text>
+                  </View>
+                  <View style={[sty.scrHorizontal, sty.tengah]}>
+                    <Text>
+                        Hey
+                    </Text>
+                  </View>
+                  <View style={[sty.scrHorizontal, sty.tengah]}>
+                    <Text>
+                        Hey
+                    </Text>
+                  </View>
+                </View>
+              </ScrollView>
             </View>
-          </ScrollView>
-        </View>
-        <View style={{flex: 8}}>
-          <ScrollView style={{width: '100%', backgroundColor: '#f9f9f9'}}>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
-            </View>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
-            </View>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
-            </View>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
-            </View>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
-            </View>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
-            </View>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
-            </View>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
-            </View>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
-            </View>
-            <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
-              <Text>
-                Content
-              </Text>
+            <View style={{flex: 8}}>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
+                <View style={[sty.mtext, sty.tengah,{height: 80, marginVertical: 15}]}>
+                  <Text>
+                    Content
+                  </Text>
+                </View>
             </View>
           </ScrollView>
         </View>
@@ -162,7 +164,7 @@ const sty = StyleSheet.create({
   },
   head: {
     flex: 2,
-    backgroundColor: '#2ab',
+    backgroundColor: '#0075b8',
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 20,
@@ -189,7 +191,7 @@ const sty = StyleSheet.create({
     shadowRadius: 1,
   },
   bawah: {
-    backgroundColor: '#aaa',
+    backgroundColor: '#ed553b',
     flex:1,
     justifyContent: 'center',
     alignItems: 'center',
