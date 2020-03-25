@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {
   View, Text, TextInput,
   TouchableNativeFeedback,
+  StatusBar,
   KeyboardAvoidingView,
   Alert,
   StyleSheet,
@@ -62,10 +63,11 @@ export default class App extends Component {
 
   render() {
     return(
-      <KeyboardAvoidingView style={{flex:1, backgroundColor: '#fff'}} behavior="padding">
+      <KeyboardAvoidingView style={{flex:1, backgroundColor: '#fff', paddingTop: StatusBar.currentHeight || 0}} behavior="padding">
+      <StatusBar barStyle='dark-content' />
       <View style={styles.container}>
         <Text style={styles.title}>
-          FORM REGISTRATION
+          FORM REGISTER
         </Text>
         <View style={styles.inputWrapper}>
           <Text style={styles.label}>
@@ -98,7 +100,7 @@ export default class App extends Component {
             onChangeText= {(text) => this.inputPassword(text)}
           />
         </View>
-        <View style={{width: '100%', alignItems:'center'}}>
+        <View style={{width: '100%', alignItems:'center', marginBottom: 20}}>
           <TouchableNativeFeedback onPress={() => this.sendForm()}>
             <View style={styles.buttonWrapper}>
               <Text style={styles.button} >
@@ -122,9 +124,10 @@ const styles = StyleSheet.create({
     padding: 40
   },
   title: {
-    fontSize: 24,
+    fontSize: 28,
     letterSpacing: -1,
-    margin: 20
+    marginBottom: 20,
+    fontWeight: 'bold'
   },
   inputWrapper: {
     width: '100%',
@@ -145,11 +148,13 @@ const styles = StyleSheet.create({
     width: '60%',
     alignItems: 'center',
     backgroundColor: 'tomato',
-    marginTop: 20
+    marginTop: 20,
+    elevation: 5,
   },
   button: {
     paddingVertical: 10,
     color: '#eee',
-    fontSize: 18
+    fontSize: 18,
+    fontWeight: 'bold'
   }
 });
